@@ -80,7 +80,7 @@ import org.springframework.web.bind.annotation.*;
  * @author Max Grabenhorst
  */
 @RestController
-@RequestMapping("/callback")
+@RequestMapping("/webhook")
 public class MessengerPlatformCallbackHandler {
 
     private static final String RESOURCE_URL = "https://raw.githubusercontent.com/fbsamples/messenger-platform-samples/master/node/public";
